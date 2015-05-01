@@ -22,5 +22,5 @@ gem "serverkit-login_items"
 resources:
   - id: alfred_2
     path: '/Applications/Alfred 2.app'
-    hidde: true
+    hidden: true
 ```
