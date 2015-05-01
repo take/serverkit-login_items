@@ -28,7 +28,7 @@ module Serverkit
       end
 
       def login_item_names
-        @login_item_names ||= list_all.stdout.split(',').map(&:strip)
+        list_all.stdout.split(',').map(&:strip)
       end
 
       def list_all
